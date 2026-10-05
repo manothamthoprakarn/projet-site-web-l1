@@ -1,0 +1,130 @@
+p, h3 {
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+:required {
+    background-color:rgb(238, 186, 186);
+}
+
+h1 {
+    color:#c04191;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: solid;
+    text-align: center;
+    border-style: solid;
+    border-color:black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+h2 {
+    color:rgb(121, 91, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:350;
+    text-align: center;
+    border-style: dotted;
+    border-color:black;
+    border-radius: 15px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+    justify-items: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #c04191;
+    font-family: sans-serif;
+}
+
+li {
+    color:purple;
+    font-family: 'Arial';
+    font-size:large;
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+.special {
+    color:red;
+    font-weight: 300;
+    text-align: justify;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.special2 {
+    font-weight: 300;
+    font-size:larger;
+    text-align: justify;
+}
+
+.special3 {
+    color:black;
+}
+
+.grande-taille {
+    font-size: 48px;
+}
+
+a, img {
+    color:black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.img_spe {
+    block-size: 750px;
+    justify-items: center;
+    /* border-color;: */
+}
+
+a:active {
+    color: lightskyblue;
+    border-color: lightblue;
+}
+
+body {
+    background-color: rgb(142, 167, 129);
+    opacity: 0.8;
+    /* background-image: url("); */
+}
+
+nav {
+    text-align: center;
+}
+
+@media only screen and ( max-width:480px ) {
+    header {
+        width: 100%;
+    }
+}
